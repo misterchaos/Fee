@@ -1,0 +1,7 @@
+DOSBox version 0.74
+Copyright 2002-2010 DOSBox Team, published under GNU GPL.
+---
+CONFIG:Loading primary settings from config file hyc.conf
+"vga" is not a valid value for variable: machine.
+It might now be reset it to default value: svga_s3
+MIDI:Opened device:win32
