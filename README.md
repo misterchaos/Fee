@@ -10,14 +10,24 @@
 
 
 
-## 如何安装
+## :triangular_flag_on_post:如何安装
 
 本程序使用Turbo C++3.0平台开发，运行于16位DOS系统，借助DOSbox模拟DOS环境，可以在Windows7-10正常运行，DOS环境和BGI图形驱动我已经配置好了，并且使用vbs脚本帮你省去使用dos命令启动程序的步骤。
 
 #### 你不需要任何安装步骤，只需要双击“HYC_C program.vbs”即可运行！
 #### 你可以使用Alt+Enter进入全屏模式，但是这属于强制缩放操作，画面并不清晰。
 
-## 功能介绍
+## :triangular_flag_on_post:项目截图
+
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/首页.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/登陆.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/统计功能.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/消费记录.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/设置.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/保存.png)
+
+
+## :triangular_flag_on_post:功能介绍
 #### 消费记录：包含ID，交易日期、入账日期、交易额、交易后余额、交易类型、交易地点等信息。
 #### 用户信息：包含用户账号，用户密码，用户类型，账户余额，消费记录等信息
 #### 用户类型：包括管理员和普通用户，管理员可以使用所有功能，操作对象是所有记录。普通用户只有查询，排序，统计功能，且操作的对象是自己的记录。
@@ -70,23 +80,16 @@
 
 ### 8.退出系统
 
-## 项目截图
 
-![img](https://github.com/misterchaos/Fee/blob/master/项目截图/首页.png)
-![img](https://github.com/misterchaos/Fee/blob/master/项目截图/登陆.png)
-![img](https://github.com/misterchaos/Fee/blob/master/项目截图/统计功能.png)
-![img](https://github.com/misterchaos/Fee/blob/master/项目截图/消费记录.png)
-![img](https://github.com/misterchaos/Fee/blob/master/项目截图/设置.png)
-![img](https://github.com/misterchaos/Fee/blob/master/项目截图/保存.png)
 
-## 注意事项
+## :triangular_flag_on_post:注意事项
 
 #### 在测试过程中，我发现使用排序功能之后，有一定几率会导致界面显示不正常，无法按照我原本设计的样式显示,我无法完全确定这其中的原因，我尝试修复了这个问题，改进后的版本自编译以来没有再出现这个问题，但是还无法保证它的稳定性。
 
 > 因此我建议你最好不要频繁使用排序功能，当然排序结果是正常的，你可以看到正确的排序结果，但是返回菜单的时候有一定几率会导致画面异常使你看不到列表的文字，或者难以看清，你需要重新打开程序才能使其恢复正常，这会带来十分糟糕的体验，如果操作过于频繁，还有可能丢失数据。
 
-------
-## 使用技巧
+
+## :triangular_flag_on_post:使用技巧
 #### 1.想要更多的主题配色？
 > 你可以自己动手修改主题配色，这只需要很简单的步骤
 
@@ -109,8 +112,8 @@
  - 15---------------------------------------WHITE  白色
  
 
-------
-## 错误处理
+
+## :triangular_flag_on_post:错误处理
 ### 1.启动过程显示error：can not open file XXX.txt ?
 可能程序运行所需的文件权限被意外修改，请检查Virtual_C\HYC目录下是否有1,FEE.TXT  2,USER.TXT 3,UNDE_FEE.TXT这三个文件，在其属性->安全中添加Everyone组，权限修改为全部允许。
 ### 2.画面显示不正常？
@@ -121,7 +124,7 @@
 因为按固定间隔查询需要依次查询每个间隔的记录，并且统计消费总额，这是一项比较消耗性能的操作，兼顾性能和实际，我把查询区间设置为1970年01月01日至2030年01月01日，不在此范围的数据不会被统计！
 
 ------
-## 版权声明
+## :triangular_flag_on_post:版权声明
 
 本软件仅供交流学习，不得用于商业用途
 
