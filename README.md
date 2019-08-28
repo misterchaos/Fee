@@ -5,7 +5,7 @@ Consumption Management System of Pay-card:是一个消费记录管理系统，�
 
 > 开发者信息：</br>
 > 联系人：黄钰朝</br>
-> 开发时间：2019-02-17至2019-03-01
+> 开发时间：2019-02-17至2019-03-01</br>
 > 联系邮箱：kobe524348@gmail.com</br>
 
 
