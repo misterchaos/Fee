@@ -1,24 +1,13 @@
-# Consumption Management System of Pay-card使用说明
+# Consumption Management System of Pay-card
 ------
-### 感谢您下载使用本软件，支付卡消费管理系统是一个消费记录管理系统，主要由查询功能，排序功能，统计功能，录入功能，修改删除功能等组成，由于本软件属于个人开发供学习实践使用，并不具备数据加密功能，请您在娱乐之余，不要填入个人的真实信息，比如密码，手机号码等信息请慎重填写，作者无法保证您的使用数据受到妥善保护。
------- 
+### 支付卡消费管理系统是一个消费记录管理系统，主要由查询功能，排序功能，统计功能，录入功能，修改删除功能等组成，由于本软件属于个人开发供学习实践使用，并不具备数据加密功能，请您在娱乐之余，不要填入个人的真实信息，比如密码，手机号码等信息请慎重填写，作者无法保证您的使用数据受到妥善保护。
 
-> ### Homepage:https://misterchaos.github.io/fee/
-------
+
 > 开发者信息：
 > 联系人：黄钰朝
 > 联系邮箱：kobe524348@gmail.com
 
-------
-# 目录
-> * 安装运行
-> * 功能介绍
-> * 注意事项
-> * 使用技巧
-> * 错误处理
-> * 版权声明
 
-------
 
 ## 如何安装
 
@@ -28,8 +17,6 @@
 > 
 > 你可以使用Alt+Enter进入全屏模式，但是这属于强制缩放操作，画面并不清晰。
 
-
-----------
 ## 功能介绍
 >消费记录：包含ID，交易日期、入账日期、交易额、交易后余额、交易类型、交易地点等信息。
 
@@ -85,7 +72,15 @@
 
 ### 8.退出系统
 
--------
+## 项目截图
+
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/首页.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/登陆.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/统计功能.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/消费记录.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/设置.png)
+![img](https://github.com/misterchaos/Fee/blob/master/项目截图/保存.png)
+
 ## 注意事项
 
 #### 在测试过程中，我发现使用排序功能之后，有一定几率会导致界面显示不正常，无法按照我原本设计的样式显示,我无法完全确定这其中的原因，我尝试修复了这个问题，改进后的版本自编译以来没有再出现这个问题，但是还无法保证它的稳定性。
